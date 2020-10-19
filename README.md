@@ -10,11 +10,11 @@
 
     ```
     const keycloak = new Keycloak({
-    realm: "KEYCLOAK_REALM",
-    url: "http://KEYCLOAK_URL/auth/",
-    clientId: "KEYCLOAK_CLIENT_ID",
-  })
-  ```
+      realm: "KEYCLOAK_REALM",
+      url: "http://KEYCLOAK_URL/auth/",
+      clientId: "KEYCLOAK_CLIENT_ID",
+    })
+    ```
 
 1.  **Run DEV server.**
 
