@@ -1,8 +1,9 @@
 import React from "react"
-import { useKeycloak } from '@react-keycloak/web'
+import {useKeycloak} from '@react-keycloak/web'
 
 const Home = () => {
-  const { keycloak, initialized } = useKeycloak()
+  const {keycloak, initialized} = useKeycloak()
+  
 return (<>
 <div>The user is {keycloak.authenticated ? '' : 'NOT'} authenticated</div>
 {keycloak.authenticated && (
